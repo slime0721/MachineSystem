@@ -86,11 +86,26 @@ CMakeFiles/MachineManager.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MachineManager.dir/src/main.cpp.s"
 	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\code\c++\MachineSystem\src\main.cpp -o CMakeFiles\MachineManager.dir\src\main.cpp.s
 
+CMakeFiles/MachineManager.dir/src/manager.cpp.obj: CMakeFiles/MachineManager.dir/flags.make
+CMakeFiles/MachineManager.dir/src/manager.cpp.obj: CMakeFiles/MachineManager.dir/includes_CXX.rsp
+CMakeFiles/MachineManager.dir/src/manager.cpp.obj: E:/code/c++/MachineSystem/src/manager.cpp
+CMakeFiles/MachineManager.dir/src/manager.cpp.obj: CMakeFiles/MachineManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\code\c++\MachineSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MachineManager.dir/src/manager.cpp.obj"
+	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MachineManager.dir/src/manager.cpp.obj -MF CMakeFiles\MachineManager.dir\src\manager.cpp.obj.d -o CMakeFiles\MachineManager.dir\src\manager.cpp.obj -c E:\code\c++\MachineSystem\src\manager.cpp
+
+CMakeFiles/MachineManager.dir/src/manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MachineManager.dir/src/manager.cpp.i"
+	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\code\c++\MachineSystem\src\manager.cpp > CMakeFiles\MachineManager.dir\src\manager.cpp.i
+
+CMakeFiles/MachineManager.dir/src/manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MachineManager.dir/src/manager.cpp.s"
+	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\code\c++\MachineSystem\src\manager.cpp -o CMakeFiles\MachineManager.dir\src\manager.cpp.s
+
 CMakeFiles/MachineManager.dir/src/student.cpp.obj: CMakeFiles/MachineManager.dir/flags.make
 CMakeFiles/MachineManager.dir/src/student.cpp.obj: CMakeFiles/MachineManager.dir/includes_CXX.rsp
 CMakeFiles/MachineManager.dir/src/student.cpp.obj: E:/code/c++/MachineSystem/src/student.cpp
 CMakeFiles/MachineManager.dir/src/student.cpp.obj: CMakeFiles/MachineManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\code\c++\MachineSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MachineManager.dir/src/student.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\code\c++\MachineSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MachineManager.dir/src/student.cpp.obj"
 	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MachineManager.dir/src/student.cpp.obj -MF CMakeFiles\MachineManager.dir\src\student.cpp.obj.d -o CMakeFiles\MachineManager.dir\src\student.cpp.obj -c E:\code\c++\MachineSystem\src\student.cpp
 
 CMakeFiles/MachineManager.dir/src/student.cpp.i: cmake_force
@@ -101,21 +116,40 @@ CMakeFiles/MachineManager.dir/src/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MachineManager.dir/src/student.cpp.s"
 	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\code\c++\MachineSystem\src\student.cpp -o CMakeFiles\MachineManager.dir\src\student.cpp.s
 
+CMakeFiles/MachineManager.dir/src/teacher.cpp.obj: CMakeFiles/MachineManager.dir/flags.make
+CMakeFiles/MachineManager.dir/src/teacher.cpp.obj: CMakeFiles/MachineManager.dir/includes_CXX.rsp
+CMakeFiles/MachineManager.dir/src/teacher.cpp.obj: E:/code/c++/MachineSystem/src/teacher.cpp
+CMakeFiles/MachineManager.dir/src/teacher.cpp.obj: CMakeFiles/MachineManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\code\c++\MachineSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MachineManager.dir/src/teacher.cpp.obj"
+	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MachineManager.dir/src/teacher.cpp.obj -MF CMakeFiles\MachineManager.dir\src\teacher.cpp.obj.d -o CMakeFiles\MachineManager.dir\src\teacher.cpp.obj -c E:\code\c++\MachineSystem\src\teacher.cpp
+
+CMakeFiles/MachineManager.dir/src/teacher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MachineManager.dir/src/teacher.cpp.i"
+	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\code\c++\MachineSystem\src\teacher.cpp > CMakeFiles\MachineManager.dir\src\teacher.cpp.i
+
+CMakeFiles/MachineManager.dir/src/teacher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MachineManager.dir/src/teacher.cpp.s"
+	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\code\c++\MachineSystem\src\teacher.cpp -o CMakeFiles\MachineManager.dir\src\teacher.cpp.s
+
 # Object files for target MachineManager
 MachineManager_OBJECTS = \
 "CMakeFiles/MachineManager.dir/src/main.cpp.obj" \
-"CMakeFiles/MachineManager.dir/src/student.cpp.obj"
+"CMakeFiles/MachineManager.dir/src/manager.cpp.obj" \
+"CMakeFiles/MachineManager.dir/src/student.cpp.obj" \
+"CMakeFiles/MachineManager.dir/src/teacher.cpp.obj"
 
 # External object files for target MachineManager
 MachineManager_EXTERNAL_OBJECTS =
 
 MachineManager.exe: CMakeFiles/MachineManager.dir/src/main.cpp.obj
+MachineManager.exe: CMakeFiles/MachineManager.dir/src/manager.cpp.obj
 MachineManager.exe: CMakeFiles/MachineManager.dir/src/student.cpp.obj
+MachineManager.exe: CMakeFiles/MachineManager.dir/src/teacher.cpp.obj
 MachineManager.exe: CMakeFiles/MachineManager.dir/build.make
 MachineManager.exe: CMakeFiles/MachineManager.dir/linkLibs.rsp
 MachineManager.exe: CMakeFiles/MachineManager.dir/objects1.rsp
 MachineManager.exe: CMakeFiles/MachineManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\code\c++\MachineSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MachineManager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\code\c++\MachineSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MachineManager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MachineManager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,5 +1,6 @@
-CMakeFiles/MachineManager.dir/src/main.cpp.obj: \
- E:\code\c++\MachineSystem\src\main.cpp \
+CMakeFiles/MachineManager.dir/src/manager.cpp.obj: \
+ E:\code\c++\MachineSystem\src\manager.cpp \
+ E:/code/c++/MachineSystem/include/manager.h \
  E:/code/c++/MachineSystem/include/identity.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -126,9 +127,4 @@ CMakeFiles/MachineManager.dir/src/main.cpp.obj: \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc

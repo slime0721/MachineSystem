@@ -1,15 +1,11 @@
 #include "manager.h"
 
-Manager::Manager()
-{
-}
-
-Manager::Manager(string name, string pwd)
+Manager::Manager(const std::string &name, const std::string &pwd)
 {
 }
 
 // 菜单界面
-void Manager::operMeun()
+void Manager::operMenu()
 {
 }
 // 添加账号

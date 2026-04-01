@@ -1,14 +1,14 @@
 #include "identity.h"
 
-class Manager : public Identity
+class Manager final : public Identity
 {
 public:
-    Manager();
+    Manager() = default;
 
-    Manager(string name, string pwd);
+    explicit Manager(const std::string &name, const std::string &pwd = "");
 
     // 菜单界面
-    virtual void operMeun();
+    void operMenu() override;
     // 添加账号
     void addPerson();
     // 查看账号

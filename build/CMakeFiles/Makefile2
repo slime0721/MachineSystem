@@ -84,12 +84,12 @@ clean: CMakeFiles/MachineManager.dir/clean
 CMakeFiles/MachineManager.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\code\c++\MachineSystem\build\CMakeFiles --progress-num=1,2,3 "Built target MachineManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\code\c++\MachineSystem\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target MachineManager"
 .PHONY : CMakeFiles/MachineManager.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MachineManager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\code\c++\MachineSystem\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\code\c++\MachineSystem\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MachineManager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\code\c++\MachineSystem\build\CMakeFiles 0
 .PHONY : CMakeFiles/MachineManager.dir/rule
@@ -101,7 +101,7 @@ MachineManager: CMakeFiles/MachineManager.dir/rule
 # codegen rule for target.
 CMakeFiles/MachineManager.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\code\c++\MachineSystem\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target MachineManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\code\c++\MachineSystem\build\CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target MachineManager"
 .PHONY : CMakeFiles/MachineManager.dir/codegen
 
 # clean rule for target.

@@ -7,8 +7,20 @@
 },
 {
   "directory": "E:/code/c++/MachineSystem/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/MachineManager.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MachineManager.dir\\src\\manager.cpp.obj -c E:\\code\\c++\\MachineSystem\\src\\manager.cpp",
+  "file": "E:/code/c++/MachineSystem/src/manager.cpp",
+  "output": "CMakeFiles/MachineManager.dir/src/manager.cpp.obj"
+},
+{
+  "directory": "E:/code/c++/MachineSystem/build",
   "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/MachineManager.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MachineManager.dir\\src\\student.cpp.obj -c E:\\code\\c++\\MachineSystem\\src\\student.cpp",
   "file": "E:/code/c++/MachineSystem/src/student.cpp",
   "output": "CMakeFiles/MachineManager.dir/src/student.cpp.obj"
+},
+{
+  "directory": "E:/code/c++/MachineSystem/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/MachineManager.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\MachineManager.dir\\src\\teacher.cpp.obj -c E:\\code\\c++\\MachineSystem\\src\\teacher.cpp",
+  "file": "E:/code/c++/MachineSystem/src/teacher.cpp",
+  "output": "CMakeFiles/MachineManager.dir/src/teacher.cpp.obj"
 }
 ]

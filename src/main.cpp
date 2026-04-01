@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#include "identity.h"
+#include <fstream>
 
 int main(int argc, char const *argv[])
 {
@@ -7,23 +7,23 @@ int main(int argc, char const *argv[])
 
     while (true)
     {
-        cout << "======================  欢迎来到机房预约系统  =======================" << endl;
-        cout << endl
-             << "请输入您的身份：" << endl;
-        cout << "\t\t -------------------------------\n";
-        cout << "\t\t                               \n";
-        cout << "\t\t           1、学生代表          \n";
-        cout << "\t\t                               \n";
-        cout << "\t\t           2、老师              \n";
-        cout << "\t\t                               \n";
-        cout << "\t\t           3、管理员            \n";
-        cout << "\t\t                               \n";
-        cout << "\t\t           0、退出              \n";
-        cout << "\t\t                               \n";
-        cout << "\t\t -------------------------------\n";
-        cout << "请输入您的选择: ";
+        std::cout << "======================  欢迎来到机房预约系统  =======================" << std::endl;
+        std::cout << std::endl
+        << "请输入您的身份：" << std::endl;
+        std::cout << "\t\t                               \n";
+        std::cout << "\t\t -------------------------------\n";
+        std::cout << "\t\t           1、学生代表          \n";
+        std::cout << "\t\t                               \n";
+        std::cout << "\t\t           2、老师              \n";
+        std::cout << "\t\t                               \n";
+        std::cout << "\t\t           3、管理员            \n";
+        std::cout << "\t\t                               \n";
+        std::cout << "\t\t           0、退出              \n";
+        std::cout << "\t\t                               \n";
+        std::cout << "\t\t -------------------------------\n";
+        std::cout << "请输入您的选择: ";
 
-        cin >> select;
+        std::cin >> select;
 
         switch (select)
         {
@@ -34,10 +34,10 @@ int main(int argc, char const *argv[])
         case 3:
             break;
         case 0:
-            cout << "欢迎下次使用" << endl;
+            std::cout << "欢迎下次使用" << std::endl;
             return 0;
         default:
-            cout << "输入有误，请重新选择" << endl;
+            std::cout << "输入有误，请重新选择" << std::endl;
             system("pause");
             system("cls");
             break;

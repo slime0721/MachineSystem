@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MachineManager.dir/src/main.cpp.obj"
   "CMakeFiles/MachineManager.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MachineManager.dir/src/manager.cpp.obj"
+  "CMakeFiles/MachineManager.dir/src/manager.cpp.obj.d"
   "CMakeFiles/MachineManager.dir/src/student.cpp.obj"
   "CMakeFiles/MachineManager.dir/src/student.cpp.obj.d"
+  "CMakeFiles/MachineManager.dir/src/teacher.cpp.obj"
+  "CMakeFiles/MachineManager.dir/src/teacher.cpp.obj.d"
   "MachineManager.exe"
   "MachineManager.exe.manifest"
   "MachineManager.pdb"

@@ -1,15 +1,11 @@
 #include "student.h"
 
-Student::Student()
-{
-}
-
-Student::Student(int id, string name, string pwd)
+Student::Student(int id, const std::string &name, const std::string &pwd)
 {
 }
 
 // 菜单界面
-void Student::operMeun()
+void Student::operMenu()
 {
 }
 // 申请预约

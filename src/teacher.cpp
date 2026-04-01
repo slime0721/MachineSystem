@@ -1,15 +1,11 @@
 #include "teacher.h"
 
-Teacher::Teacher()
-{
-}
-
-Teacher::Teacher(int emId, string name, string pwd)
+Teacher::Teacher(int id,const std::string& name,const std::string& pwd)
 {
 }
 
 // 菜单
-void Teacher::operMeun()
+void Teacher::operMenu()
 {
 }
 // 查看所有预约

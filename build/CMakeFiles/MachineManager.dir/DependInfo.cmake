@@ -9,7 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/code/c++/MachineSystem/src/main.cpp" "CMakeFiles/MachineManager.dir/src/main.cpp.obj" "gcc" "CMakeFiles/MachineManager.dir/src/main.cpp.obj.d"
+  "E:/code/c++/MachineSystem/src/manager.cpp" "CMakeFiles/MachineManager.dir/src/manager.cpp.obj" "gcc" "CMakeFiles/MachineManager.dir/src/manager.cpp.obj.d"
   "E:/code/c++/MachineSystem/src/student.cpp" "CMakeFiles/MachineManager.dir/src/student.cpp.obj" "gcc" "CMakeFiles/MachineManager.dir/src/student.cpp.obj.d"
+  "E:/code/c++/MachineSystem/src/teacher.cpp" "CMakeFiles/MachineManager.dir/src/teacher.cpp.obj" "gcc" "CMakeFiles/MachineManager.dir/src/teacher.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

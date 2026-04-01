@@ -152,6 +152,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/manager.obj: src/manager.cpp.obj
+.PHONY : src/manager.obj
+
+# target to build an object file
+src/manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/manager.cpp.obj
+.PHONY : src/manager.cpp.obj
+
+src/manager.i: src/manager.cpp.i
+.PHONY : src/manager.i
+
+# target to preprocess a source file
+src/manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/manager.cpp.i
+.PHONY : src/manager.cpp.i
+
+src/manager.s: src/manager.cpp.s
+.PHONY : src/manager.s
+
+# target to generate assembly for a file
+src/manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/manager.cpp.s
+.PHONY : src/manager.cpp.s
+
 src/student.obj: src/student.cpp.obj
 .PHONY : src/student.obj
 
@@ -176,6 +200,30 @@ src/student.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/student.cpp.s
 .PHONY : src/student.cpp.s
 
+src/teacher.obj: src/teacher.cpp.obj
+.PHONY : src/teacher.obj
+
+# target to build an object file
+src/teacher.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/teacher.cpp.obj
+.PHONY : src/teacher.cpp.obj
+
+src/teacher.i: src/teacher.cpp.i
+.PHONY : src/teacher.i
+
+# target to preprocess a source file
+src/teacher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/teacher.cpp.i
+.PHONY : src/teacher.cpp.i
+
+src/teacher.s: src/teacher.cpp.s
+.PHONY : src/teacher.s
+
+# target to generate assembly for a file
+src/teacher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/teacher.cpp.s
+.PHONY : src/teacher.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +236,15 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/manager.obj
+	@echo ... src/manager.i
+	@echo ... src/manager.s
 	@echo ... src/student.obj
 	@echo ... src/student.i
 	@echo ... src/student.s
+	@echo ... src/teacher.obj
+	@echo ... src/teacher.i
+	@echo ... src/teacher.s
 .PHONY : help
 
 
