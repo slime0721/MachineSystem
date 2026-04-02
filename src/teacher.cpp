@@ -1,6 +1,6 @@
 #include "teacher.h"
 
-Teacher::Teacher(int id,const std::string& name,const std::string& pwd)
+Teacher::Teacher(int id,const std::string& name,const std::string& pwd): Identity(name, pwd), mEmid(id)
 {
 }
 

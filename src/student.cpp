@@ -1,6 +1,6 @@
 #include "student.h"
 
-Student::Student(int id, const std::string &name, const std::string &pwd)
+Student::Student(int id, const std::string &name, const std::string &pwd): Identity(name, pwd), mId(id)
 {
 }
 

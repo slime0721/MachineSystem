@@ -1,14 +1,13 @@
+#pragma once
 #include "identity.h"
 
 class Student final : public Identity
 {
-    Student() = default;
-
-    Student(int id, const std::string &name, const std::string &pwd);
+public:
+    explicit Student(int id, const std::string &name, const std::string &pwd);
 
     // 菜单界面
     void operMenu() override;
-
     // 申请预约
     void applyOrder();
     // 查看自己预约
@@ -18,7 +17,9 @@ class Student final : public Identity
     // 取消预约
     void cancelOrder();
 
-protected:
+    int getId() const { return mId; }
+
+private:
     // 学生学号
     int mId = 0;
 };

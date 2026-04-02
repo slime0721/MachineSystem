@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.10)
 project(MachineManager)
 
-# 璁剧疆 C++ 鏍囧噯涓� 11
+# 鐠佸墽鐤� C++ 閺嶅洤鍣稉锟� 11
 set(CMAKE_CXX_STANDARD 11)
 
-# 1. 鍛婅瘔缂栬瘧鍣細鍘昏繖涓枃浠跺す鎵� .h 澶存枃浠�
+# 1. 閸涘﹨鐦旂紓鏍槯閸ｎ煉绱伴崢鏄忕箹娑擃亝鏋冩禒璺恒仚閹碉拷 .h 婢跺瓨鏋冩禒锟�
 include_directories(include)
 
-# 2. 鍛婅瘔缂栬瘧鍣細鍘昏繖涓枃浠跺す鎵炬墍鏈夌殑 .cpp 婧愭枃浠�
+# 2. 閸涘﹨鐦旂紓鏍槯閸ｎ煉绱伴崢鏄忕箹娑擃亝鏋冩禒璺恒仚閹电偓澧嶉張澶屾畱 .cpp 濠ф劖鏋冩禒锟�
 file(GLOB SOURCES "src/*.cpp")
 
-# 3. 鍛婅瘔缂栬瘧鍣細鎶婅繖浜涙簮鏂囦欢缂栬瘧鎴愪竴涓彨 MachineManager.exe 鐨勭▼搴�
+# 3. 閸涘﹨鐦旂紓鏍槯閸ｎ煉绱伴幎濠呯箹娴滄稒绨弬鍥︽缂傛牞鐦ч幋鎰娑擃亜褰� MachineManager.exe 閻ㄥ嫮鈻兼惔锟�
 add_executable(MachineManager ${SOURCES})
