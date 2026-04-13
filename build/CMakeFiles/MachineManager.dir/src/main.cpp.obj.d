@@ -149,6 +149,6 @@ CMakeFiles/MachineManager.dir/src/main.cpp.obj: \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
  E:/code/c++/MachineSystem/include/globalFile.h \
  E:/code/c++/MachineSystem/include/student.h \
+ E:/code/c++/MachineSystem/include/computerRoom.h \
  E:/code/c++/MachineSystem/include/teacher.h \
- E:/code/c++/MachineSystem/include/manager.h \
- E:/code/c++/MachineSystem/include/computerRoom.h
+ E:/code/c++/MachineSystem/include/manager.h

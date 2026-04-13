@@ -4,6 +4,46 @@
 #include "teacher.h"
 #include "manager.h"
 
+// 学生菜单
+void studentMenu(Student *&student)
+{
+    while (true)
+    {
+        student->operMenu();
+        int select = 0;
+        std::cin >> select;
+
+        switch (select)
+        {
+        case 1:
+            student->applyOrder();
+            break;
+        case 2:
+            student->showMyOrder();
+            break;
+        case 3:
+            student->showAllOrder();
+            break;
+        case 4:
+            student->cancelOrder();
+            break;
+        case 0:
+            std::cout << "欢迎下次使用" << std::endl;
+            delete student;
+            student = nullptr;
+            system("pause");
+            system("cls");
+            return;
+        default:
+            std::cout << "输入有误，请重新选择" << std::endl;
+            system("pause");
+            system("cls");
+            break;
+        }
+    }
+}
+
+// 管理员菜单
 void managerMenu(Manager *&manager)
 {
     while (true)
@@ -50,7 +90,7 @@ void LoginIn(const std::string &fileName, int type) // 操作文件名 操作身份类型
     std::ifstream ifs(fileName);
     if (!ifs)
     {
-        std::cout << "文件不存在" << std::endl;
+        std::cerr << "文件不存在" << std::endl;
         return;
     }
 
@@ -88,6 +128,8 @@ void LoginIn(const std::string &fileName, int type) // 操作文件名 操作身份类型
                 system("pause");
                 system("cls");
 
+                Student *stu = new Student(id, name, pwd);
+                studentMenu(stu);
                 return;
             }
         }
@@ -104,7 +146,6 @@ void LoginIn(const std::string &fileName, int type) // 操作文件名 操作身份类型
                 std::cout << "老师登录成功！" << std::endl;
                 system("pause");
                 system("cls");
-
                 return;
             }
         }
@@ -138,8 +179,8 @@ void showMenu()
     std::cout << "======================  欢迎来到机房预约系统  =======================" << std::endl;
     std::cout << std::endl
               << "请输入您的身份：" << std::endl;
-    std::cout << "\t\t                               \n";
     std::cout << "\t\t -------------------------------\n";
+    std::cout << "\t\t                               \n";
     std::cout << "\t\t           1、学生代表          \n";
     std::cout << "\t\t                               \n";
     std::cout << "\t\t           2、老师              \n";

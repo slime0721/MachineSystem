@@ -176,6 +176,30 @@ src/manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/manager.cpp.s
 .PHONY : src/manager.cpp.s
 
+src/orderFile.obj: src/orderFile.cpp.obj
+.PHONY : src/orderFile.obj
+
+# target to build an object file
+src/orderFile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/orderFile.cpp.obj
+.PHONY : src/orderFile.cpp.obj
+
+src/orderFile.i: src/orderFile.cpp.i
+.PHONY : src/orderFile.i
+
+# target to preprocess a source file
+src/orderFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/orderFile.cpp.i
+.PHONY : src/orderFile.cpp.i
+
+src/orderFile.s: src/orderFile.cpp.s
+.PHONY : src/orderFile.s
+
+# target to generate assembly for a file
+src/orderFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineManager.dir\build.make CMakeFiles/MachineManager.dir/src/orderFile.cpp.s
+.PHONY : src/orderFile.cpp.s
+
 src/student.obj: src/student.cpp.obj
 .PHONY : src/student.obj
 
@@ -239,6 +263,9 @@ help:
 	@echo ... src/manager.obj
 	@echo ... src/manager.i
 	@echo ... src/manager.s
+	@echo ... src/orderFile.obj
+	@echo ... src/orderFile.i
+	@echo ... src/orderFile.s
 	@echo ... src/student.obj
 	@echo ... src/student.i
 	@echo ... src/student.s

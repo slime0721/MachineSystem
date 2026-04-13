@@ -3,13 +3,13 @@
 Manager::Manager(const std::string &name, const std::string &pwd) : Identity(name, pwd)
 {
     // 初始化容器 获取学生老师信息
-    this->initVector();
+    initVector();
 
     // 初始化机房 (因为不做修改机房功能所以不单独封装函数)
     std::ifstream ifs(COMPUTER_FILE);
     if (!ifs)
     {
-        std::cout << "机房文件打开失败！" << std::endl;
+        std::cerr << "机房文件打开失败！" << std::endl;
         return;
     }
 
@@ -25,7 +25,7 @@ Manager::Manager(const std::string &name, const std::string &pwd) : Identity(nam
 // 菜单界面
 void Manager::operMenu()
 {
-    std::cout << "欢迎管理员：" << this->getName() << "登录！" << std::endl;
+    std::cout << "欢迎管理员：" << getName() << "登录！" << std::endl;
     std::cout << "\t\t ---------------------------------\n";
     std::cout << "\t\t                                 \n";
     std::cout << "\t\t          1.添加账号              \n";
@@ -70,6 +70,7 @@ void Manager::addPerson()
     {
         std::cout << "输入有误" << std::endl;
         system("pause");
+        system("cls");
         return;
     }
 
@@ -98,16 +99,17 @@ void Manager::addPerson()
     std::cout << "请输入的密码：" << std::endl;
     std::cin >> pwd;
 
-    std::ofstream ofs(fileName, std::ios::out | std::ios::app);
+    std::ofstream ofs(fileName, std::ios::app);
     if (!ofs)
     {
-        std::cout << "文件不存在" << std::endl;
+        std::cerr << "文件不存在" << std::endl;
         return;
     }
     ofs << id << " " << name << " " << pwd << std::endl;
+    ofs.close();
     std::cout << "添加成功！" << std::endl;
 
-    this->initVector();
+    initVector();
 
     system("pause");
     system("cls");
@@ -174,9 +176,10 @@ void Manager::clearFile()
     std::ofstream ofs(ORDER_FILE, std::ios::trunc);
     if (!ofs)
     {
-        std::cout << "文件打开失败，清空取消。" << std::endl;
+        std::cerr << "文件打开失败，清空取消。" << std::endl;
         return;
     }
+    ofs.close();
     std::cout << "清空成功！" << std::endl;
     system("pause");
     system("cls");
@@ -194,7 +197,7 @@ void Manager::initVector()
         std::ifstream ifs(STUDENT_FILE);
         if (!ifs)
         {
-            std::cout << "学生文件不存在" << std::endl;
+            std::cerr << "学生文件不存在" << std::endl;
             return;
         }
         int id = 0;
@@ -211,7 +214,7 @@ void Manager::initVector()
         std::ifstream ifs(TEACHER_FILE);
         if (!ifs)
         {
-            std::cout << "教师文件不存在" << std::endl;
+            std::cerr << "教师文件不存在" << std::endl;
             return;
         }
         int id = 0;

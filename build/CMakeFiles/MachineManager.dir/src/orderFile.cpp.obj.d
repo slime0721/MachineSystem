@@ -1,7 +1,7 @@
-CMakeFiles/MachineManager.dir/src/manager.cpp.obj: \
- E:\code\c++\MachineSystem\src\manager.cpp \
- E:/code/c++/MachineSystem/include/manager.h \
- E:/code/c++/MachineSystem/include/identity.h \
+CMakeFiles/MachineManager.dir/src/orderFile.cpp.obj: \
+ E:\code\c++\MachineSystem\src\orderFile.cpp \
+ E:/code/c++/MachineSystem/include/orderFile.h \
+ E:/code/c++/MachineSystem/include/globalFile.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -128,27 +128,19 @@ CMakeFiles/MachineManager.dir/src/manager.cpp.obj: \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
- E:/code/c++/MachineSystem/include/globalFile.h \
- E:/code/c++/MachineSystem/include/student.h \
- E:/code/c++/MachineSystem/include/computerRoom.h \
- E:/code/c++/MachineSystem/include/teacher.h
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc

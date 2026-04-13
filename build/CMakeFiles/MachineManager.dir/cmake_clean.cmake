@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MachineManager.dir/src/main.cpp.obj.d"
   "CMakeFiles/MachineManager.dir/src/manager.cpp.obj"
   "CMakeFiles/MachineManager.dir/src/manager.cpp.obj.d"
+  "CMakeFiles/MachineManager.dir/src/orderFile.cpp.obj"
+  "CMakeFiles/MachineManager.dir/src/orderFile.cpp.obj.d"
   "CMakeFiles/MachineManager.dir/src/student.cpp.obj"
   "CMakeFiles/MachineManager.dir/src/student.cpp.obj.d"
   "CMakeFiles/MachineManager.dir/src/teacher.cpp.obj"

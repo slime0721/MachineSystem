@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/code/c++/MachineSystem/src/main.cpp" "CMakeFiles/MachineManager.dir/src/main.cpp.obj" "gcc" "CMakeFiles/MachineManager.dir/src/main.cpp.obj.d"
   "E:/code/c++/MachineSystem/src/manager.cpp" "CMakeFiles/MachineManager.dir/src/manager.cpp.obj" "gcc" "CMakeFiles/MachineManager.dir/src/manager.cpp.obj.d"
+  "E:/code/c++/MachineSystem/src/orderFile.cpp" "CMakeFiles/MachineManager.dir/src/orderFile.cpp.obj" "gcc" "CMakeFiles/MachineManager.dir/src/orderFile.cpp.obj.d"
   "E:/code/c++/MachineSystem/src/student.cpp" "CMakeFiles/MachineManager.dir/src/student.cpp.obj" "gcc" "CMakeFiles/MachineManager.dir/src/student.cpp.obj.d"
   "E:/code/c++/MachineSystem/src/teacher.cpp" "CMakeFiles/MachineManager.dir/src/teacher.cpp.obj" "gcc" "CMakeFiles/MachineManager.dir/src/teacher.cpp.obj.d"
   )

@@ -147,4 +147,16 @@ CMakeFiles/MachineManager.dir/src/student.cpp.obj: \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+ E:/code/c++/MachineSystem/include/computerRoom.h \
+ E:/code/c++/MachineSystem/include/globalFile.h \
+ E:/code/c++/MachineSystem/include/orderFile.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h
